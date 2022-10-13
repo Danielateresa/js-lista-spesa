@@ -17,7 +17,7 @@ const shoppingList = [
 let i = 0;
 while (i < shoppingList.length) {
 
-    listItem = shoppingList[i];
+    const listItem = shoppingList[i];
     //console.log(listItem);
 
     //aggiungo i li al DOM con la struttura tag
