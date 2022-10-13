@@ -11,14 +11,23 @@ const shoppingList = [
     'pane',
     'patatine',
     'affettati'
-]
+];
 
 //stampare la lista della spesa utilizzando il ciclo while
 let i = 0;
 while (i < shoppingList.length) {
 
     listItem = shoppingList[i];
-    console.log(listItem);
+    //console.log(listItem);
+
+    //aggiungo i li al DOM con la struttura tag
+    const liEl = `<li>${listItem}</li>`;
+    //console.log(liEl);
+
+    //seleziono il nodo ul dal DOM inserendolo in una cìcostante
+    const ulEl = document.querySelector('ul');
+    //attacco all'ul i li contenenti le varie voci spesa
+    ulEl.insertAdjacentHTML('beforeend', liEl);
 
     i++
 }
