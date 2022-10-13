@@ -3,3 +3,22 @@ Facciamo attenzione a non dimenticare tutte le differenze implementative che il 
 in particolare alla variabile di indice. */
 
 
+//array
+const shoppingList = [
+    'insalata',
+    'carote',
+    'latte',
+    'pane',
+    'patatine',
+    'affettati'
+]
+
+//stampare la lista della spesa utilizzando il ciclo while
+let i = 0;
+while (i < shoppingList.length) {
+
+    listItem = shoppingList[i];
+    console.log(listItem);
+
+    i++
+}
