@@ -1,0 +1,28 @@
+body {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.container {
+    width: 250px;
+    margin: 5rem auto;
+}
+
+.sheet {
+    background-color: rgb(246, 246, 246);
+    padding: 3rem;
+    box-shadow: 5px 5px 5px 0 rgb(167, 167, 167);
+    position: relative;
+}
+
+.punesse {
+    width: 20px;
+    aspect-ratio: 1/1;
+    background-color: red;
+    border-radius: 50%;
+    border-right: 2px solid rgb(119, 8, 8);
+    border-bottom: 2px solid rgb(119, 8, 8);
+    box-shadow: 5px 5px 5px 0 rgb(167, 167, 167);
+    position: absolute;
+    top: 6rem;
+    left: calc(100% / 2 - 10px);
+}
